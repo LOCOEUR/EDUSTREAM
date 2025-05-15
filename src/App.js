@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import VideoDetailPage from './pages/VideoDetailPage';
@@ -24,7 +25,7 @@ function App() {
         <Route path="/video/:id" element={<VideoDetailPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
-        <Route path="/createvideo" element={<CreateVideo />} /> {/* Formulaire de création de vidéo */}
+        <Route path="/createvideo" element={<CreateVideo />} /> 
         
       </Routes>
     </Router>
