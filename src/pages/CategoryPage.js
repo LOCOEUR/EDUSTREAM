@@ -15,6 +15,7 @@ function CategoryPage() {
         video.category.toLowerCase() === categoryName.toLowerCase()
       );
       setFilteredVideos(filtered);
+      
     } else {
       setFilteredVideos([]);
     }
